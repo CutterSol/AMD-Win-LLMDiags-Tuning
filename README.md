@@ -1,10 +1,10 @@
-# LLMDIAG — AMD-Centric LLM Diagnostic & Tuning Tool
+LLMDIAG — AMD-Centric LLM Diagnostic & Tuning Tool for Windows
 
-A self-elevating PowerShell diagnostic tool built for Windows-based local LLM environments, with a focus on AMD hardware (ROCm/Vulkan) and optimized for infrastructure use.
+A self-elevating PowerShell diagnostic tool built for Windows-based local LLM environments, with a focus on AMD hardware (ROCm/Vulkan) and optimized for infrastructure use.  Also supports Vulkan and various LLM Engines that run on Windows.  
 
 ## What It Does
 
-LLMDIAG collects system telemetry across five stages—hardware foundation, GPU compute layers, runtimes/environment, active LLM processes, and Windows optimization settings—and generates a comprehensive HTML report with automated bottleneck analysis.
+LLMDIAG collects system telemetry across five stages—hardware foundation, GPU compute layers, runtimes/environment, active LLM processes, and Windows optimization settings—and generates a comprehensive HTML report with automated bottleneck analysis.  It can also be used to configure base settings essential to LLMs as well as Video Games!
 
 ### Key Features
 
@@ -69,7 +69,7 @@ All tweaks are backed up before application. Restore uses the most recent backup
 
 ## AMD Focus Notes
 
-This tool was developed and tested on an AMD V620 (32GB ECC VRAM) with Ryzen 5600G host. It prioritizes:
+This tool was developed and tested on an AMD V620, RX 9060 XT, & RX 7700 16GB with Ryzen 5000 host. It prioritizes:
 - ROCm/hipinfo telemetry over nvidia-smi
 - Vulkan-based AI extension detection for RDNA architectures
 - HSA_OVERRIDE_GFX_VERSION awareness
@@ -82,7 +82,7 @@ Each run creates a numbered directory under `C:\_LLMDiag\` (e.g., `LLMDiag1`, `L
 
 ## Version History
 
-Current: v0.3.24 (.324)
+Current: v0.3.18
 
 ## License
 
