@@ -1,5 +1,0 @@
-{
-  "name": "LLM Diagnostics & Tuning Tool",
-  "description": "A comprehensive PowerShell utility for diagnosing and optimizing Windows systems for Local LLM workloads (AMD ROCm/HIP focused).",
-  "requestFramePermissions": []
-}
